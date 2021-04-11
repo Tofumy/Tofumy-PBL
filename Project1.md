@@ -7,7 +7,7 @@ The below cmdlet updates a list of packages in package manager
 
 `$ sudo apt update`
 
-![screenshot](C:\Users\jesutofunmi\Downloads\DevOps\Prjt 1\Pics1.png)
+![screenshot](Prjt 1\Pics1.png)
 
 The below cmdlet runs apache2 package installation
 
