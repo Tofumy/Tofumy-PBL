@@ -7,7 +7,8 @@ The below cmdlet updates a list of packages in package manager
 
 `$ sudo apt update`
 
-![screenshot](Prjt 1\Pics1.png)
+![screenshot] (Tofumy\Tofumy-PBL\blob\main\Prjt 1\Pics1.png)
+![screenshot](https://github.com/Tofumy/Tofumy-PBL/blob/main/Prjt 1/Pics1.png)
 
 The below cmdlet runs apache2 package installation
 
