@@ -13,32 +13,32 @@ The below cmdlet runs apache2 package installation
 
 `$ sudo apt install apache2`
 
-![screenshot](C:\Users\jesutofunmi\Downloads\DevOps\Prjt 1\Pics2.png)
-![screenshot](C:\Users\jesutofunmi\Downloads\DevOps\Prjt 1\Pics2b.png)
+![screenshot](https://github.com/Tofumy/Tofumy-PBL/blob/main/Pics2.PNG)
+![screenshot](https://github.com/Tofumy/Tofumy-PBL/blob/main/Pics2b.PNG)
 
 This code verifies that apache2 is running as a Service in my Server
 
 `$ sudo systemctl status apache2`
 
-![Output of the apache2 installation](C:\Users\jesutofunmi\Downloads\DevOps\Prjt 1\Pics3.png)
+![Output of the apache2 installation](https://github.com/Tofumy/Tofumy-PBL/blob/main/Pics3.PNG)
 
 Opened TCP port 80 in the EC2 Instance which is the default port that web browsers use to access web pages on the Internet
 
-![screenshot](C:\Users\jesutofunmi\Downloads\DevOps\Prjt 1\Inboundrule.png)
+![screenshot](https://github.com/Tofumy/Tofumy-PBL/blob/main/Inboundrule.PNG)
 
 
 Output to check if we can access the apache2 locally
 
-![screenshot](C:\Users\jesutofunmi\Downloads\DevOps\Prjt 1\curl-checks-local.png)
+![screenshot](https://github.com/Tofumy/Tofumy-PBL/blob/main/curl-checks-local.PNG)
 
 Output to check if we can access the apache2 over the internet from any IP address
 
-![screenshot](C:\Users\jesutofunmi\Downloads\DevOps\Prjt 1\curl-checks-internet.png)
+![screenshot](https://github.com/Tofumy/Tofumy-PBL/blob/main/curl-checks-internet.PNG)
 
 
 Test that apache server is running over the browser
 
-![screenshot](C:\Users\jesutofunmi\Downloads\DevOps\Prjt 1\apache-browser-test.png)
+![screenshot](https://github.com/Tofumy/Tofumy-PBL/blob/main/apache-browser-test.PNG)
 
 
 
@@ -48,20 +48,20 @@ The below cmdlet installs the mysql in the server
 
 `$ sudo apt install mysql-server`
 
-![screenshot](C:\Users\jesutofunmi\Downloads\DevOps\Prjt 1\install-mysql.png)
+![screenshot](https://github.com/Tofumy/Tofumy-PBL/blob/main/install-mysql.PNG)
 
 The below cmdlet runs a security script that removes sime insecure default settings and lock down access to the database system
 
 `$ sudo mysql_secure_installation`
 
-![screenshot](C:\Users\jesutofunmi\Downloads\DevOps\Prjt 1\secure-sql.png)
+![screenshot](https://github.com/Tofumy/Tofumy-PBL/blob/main/secure-sql.PNG)
 
 
 This code verifies that we can log in to the MySQL server
 
 `$ sudo mysql`
 
-![screenshot](C:\Users\jesutofunmi\Downloads\DevOps\Prjt 1\test-sql.png)
+![screenshot](https://github.com/Tofumy/Tofumy-PBL/blob/main/test-sql.PNG)
 
 
 
@@ -72,14 +72,14 @@ The below cmdlet installs *php* , *libapache2-mod-php* and *php-mysql*
 
 `$ sudo apt install php libapache2-mod-php php-mysql`
 
-![screenshot](C:\Users\jesutofunmi\Downloads\DevOps\Prjt 1\install-php.png)
+![screenshot](https://github.com/Tofumy/Tofumy-PBL/blob/main/install-php.PNG)
 
 
 Use the below to confirm your php version 
 
 `$ php -v`
 
-![screenshot](C:\Users\jesutofunmi\Downloads\DevOps\Prjt 1\php-version.png)
+![screenshot](https://github.com/Tofumy/Tofumy-PBL/blob/main/php-version.PNG)
 
 
 **LAMP stack has been installed completely and it is operational**
@@ -129,8 +129,8 @@ Used the below cmdlet to show the new file we created in the sites-available dir
 
 See screenshot of the above cmds ran
 
-![screenshot](C:\Users\jesutofunmi\Downloads\DevOps\Prjt 1\Virtualhost.png)
-![screenshot](C:\Users\jesutofunmi\Downloads\DevOps\Prjt 1\Virtualhost2.png)
+![screenshot](https://github.com/Tofumy/Tofumy-PBL/blob/main/Virtualhost.PNG)
+![screenshot](https://github.com/Tofumy/Tofumy-PBL/blob/main/Virtualhost2.PNG)
 
 
 Enabled the new virtualhost created with the below
@@ -141,7 +141,7 @@ Disabled the default website that comes installed with Apache with the below
 
 `$ sudo dissite 000-default`
 
-![screenshot](C:\Users\jesutofunmi\Downloads\DevOps\Prjt 1\enable-disableVH.png)
+![screenshot](https://github.com/Tofumy/Tofumy-PBL/blob/main/enable-disableVH.PNG)
 
 
 Ran the below cmd to make sure the config file does not contain any syntax error
@@ -153,7 +153,7 @@ Used the below to reload Apache so the changes can take effect
 `$ sudo systemctl reload apache2`
 
 
-![screenshot](C:\Users\jesutofunmi\Downloads\DevOps\Prjt 1\config-test.png)
+![screenshot](https://github.com/Tofumy/Tofumy-PBL/blob/main/config-test.PNG)
 
 
 Created an index.html file in the */var/www/projectlamp* location for testing if the virtual host works fine
@@ -164,7 +164,7 @@ Created an index.html file in the */var/www/projectlamp* location for testing if
 The below screen shot is the output which shows Virtual host is working properly
 
 
-![screenshot](C:\Users\jesutofunmi\Downloads\DevOps\Prjt 1\config-test-output.png)
+![screenshot](https://github.com/Tofumy/Tofumy-PBL/blob/main/config-test-output.PNG)
 
 
 
@@ -186,7 +186,7 @@ We needed to edit the /etc/apache2/mods-enabled/dir.conf file and change the ord
 
 ```
 
-![](C:\Users\jesutofunmi\Downloads\DevOps\Prjt 1\change-dirconf.png)
+![](https://github.com/Tofumy/Tofumy-PBL/blob/main/change-dirconf.PNG)
 
 
 Create a new file named index.php inside your custom web root folder:
@@ -205,10 +205,10 @@ Reloaded apache for changes to take place
 
 `$ sudo systemctl reload apache2`
 
-![screenshot](C:\Users\jesutofunmi\Downloads\DevOps\Prjt 1\indexphp.png)
+![screenshot](https://github.com/Tofumy/Tofumy-PBL/blob/main/indexphp.PNG)
 
 
 
 The output shows that PHP installation is working as expected
 
-![PHP landing](C:\Users\jesutofunmi\Downloads\DevOps\Prjt 1\landingphp.png)
+![PHP landing](https://github.com/Tofumy/Tofumy-PBL/blob/main/landingphp.PNG)
