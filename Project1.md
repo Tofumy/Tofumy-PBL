@@ -61,7 +61,7 @@ This code verifies that we can log in to the MySQL server
 
 `$ sudo mysql`
 
-![screenshot](https://github.com/Tofumy/Tofumy-PBL/blob/main/test-sql.PNG)
+![screenshot](https://github.com/Tofumy/Tofumy-PBL/blob/main/test-mysql.PNG)
 
 
 
